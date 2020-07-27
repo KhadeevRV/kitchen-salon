@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <script
+      src="https://kit.fontawesome.com/aefa78e645.js"
+      crossorigin="anonymous"
+    ></script>
+    <title>Кухни PLANETA Уфа</title>
+    <link href="https://fonts.googleapis.com/css?family=Roboto+Slab:300,400,700&amp;subset=cyrillic-ext" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital@1&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" href="/img/logo/icon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    <header>
+        <div class="header__container">
+            <a href="#" class="header__logo">
+                <img src="./img/logo/logo.png" alt="PLANETA мебели" class="header__logo-img">
+            </a>
+            <div class="header__contacts">
+                    <div class="header__contacts-item">
+                        <button class="header__feedback-btn">Оставьте заявку</button>
+                        <button class="header__price-btn"><a class = 'header__price-btn-text' href="#price">Узнайте стоимость вашей кухни</a></button>
+                    
+                        <div class="header__contacts-tel">
+                                <a href="tel:+797867834347">+7-978-678-34-37</a>
+                            </div>
+                    </div>
+                    <div class="header__contacts-item">
+                        <img src="./img/icons/svg/pointer.svg" alt="указатель" class="header__contacts-logo">
+                        <address>ул. Индустриальное шоссе, 48/1<br>
+                            Уфа 10:00 - 21:00</address>
+                    </div>
+            </div>
+        </div>
+    </header>
+    <div class="main">
+    <div class="container">
+        <h1 class="title">Сеть салонов мебели PLANETA</h1>
+        <section class="kitchens">
+                <h2 class="subtitle">Наши кухни</h2> 
+                <div class="slider" id="photo">
+                    <div class="wrap">
+                        <div class="slider-item fade">
+                            <img src="img/slider_1.jpg" alt="slider">
+                            <p>Кухня Прованс. <br> Цена за погонный метр:18 633р.</p>
+                        </div>
+                        <div class="slider-item fade">
+                            <img src="img/slider_2.jpg" alt="slider">
+                            <p>Кухня Варна. <br> Цена за погонный метр:18 817р.</p>
+                        </div>
+                        <div class="slider-item fade">
+                            <img src="img/slider_3.jpg" alt="slider">
+                            <p>Кухня Глайд. <br> Цена за погонный метр:25 349 р</p>
+                        </div>
+                        <div class="slider-item fade">
+                            <img src="img/slider_4.jpg" alt="slider">
+                            <p>Кухня Афина. <br> Цена за погонный метр:25 770 р</p>
+                        </div>
+        
+                        <div class="prev"><div class="arrow-left"></div></div>
+                        <div class="next"><div class="arrow-right"></div></div>
+                    </div>
+                    <div class="slider-dots">
+                        <div class="dot dot-active"></div>
+                        <div class="dot"></div>
+                        <div class="dot"></div>
+                        <div class="dot"></div>
+                    </div>
+                </div>
+                <div class="kitchen-offer">
+                    <p>Хотите так же?</p>
+                    <button class="offer__feedback-btn">Оставьте заявку</button>
+                </div>
+            </section>
+        <h2 class="subtitle" id="price">Рассчитайте стоимость кухни вашей мечты всего за 5 шагов</h2>
+        <form class="quizz-form">
+            <h3 class="quizz-subtitle">1.Выберите тип кухни</h3>
+            <div class="quizz-quest_shape">
+                <div class="quizz-item">
+                    <input type="radio" name="choose_form" id="choose_form1" checked> 
+                    <img src="./img/i1.svg" alt="">
+                    <label for="choose_form1"> П-образная </label>
+                </div>
+                <div class="quizz-item">
+                    <input type="radio" name="choose_form" id="choose_form2"> 
+                    <img src="./img/i2.svg" alt="">
+                    <label for="choose_form2"> Прямая </label>
+                </div>
+                <div class="quizz-item">
+                    <input type="radio" name="choose_form" id="choose_form3"> 
+                    <img src="./img/i3.svg" alt="">
+                    <label for="choose_form3"> С островом </label>
+                </div>
+                <div class="quizz-item">
+                    <input type="radio" name="choose_form" id="choose_form4"> 
+                    <img src="./img/i4.svg" alt="">
+                    <label for="choose_form4"> Угловая </label>
+                </div>
+                <div class="quizz-item">
+                    <input type="radio" name="choose_form" id="choose_form5">
+                    <label for="choose_form5"> Другое </label>
+                </div>
+            </div>
+            <h3 class="quizz-subtitle">2.Выберите метариал столешницы</h3>
+            <div class="quizz-quest_material">
+                <div class="quizz-item">                    
+                    <img src="./img/materials/stone.jpg" class="quizz-item_img" alt=""> <br>
+                    <input type="radio" name="choose_mat" id="choose_mat1" checked>
+                    <label for="choose_mat1"> Искусственный камень </label>
+                </div>
+                <div class="quizz-item">
+                    <img src="./img/materials/granite.jpg" class="quizz-item_img" alt=""> <br>
+                    <input type="radio" name="choose_mat" id="choose_mat2">
+                    <label for="choose_mat2"> Жидкий гранит </label>
+                </div>
+                <div class="quizz-item">
+                    <img src="./img/materials/quartz.jpg" class="quizz-item_img" alt=""> <br>
+                    <input type="radio" name="choose_mat" id="choose_mat3">
+                    <label for="choose_mat3"> Кравцовый </label>
+                </div>
+                <div class="quizz-item">
+                    <img src="./img/materials/dsp.jpg" class="quizz-item_img" alt=""> <br>
+                    <input type="radio" name="choose_mat" id="choose_mat4">
+                    <label for="choose_mat4"> ДСП </label>
+                </div>
+                <div class="quizz-item">
+                    <img src="./img/materials/mdf.jpg" class="quizz-item_img" alt=""> <br>
+                    <input type="radio" name="choose_mat" id="choose_mat5">
+                    <label for="choose_mat5"> МДФ </label>
+                </div>
+                <div class="quizz-item">
+                    <img src="./img/materials/other.jpg" class="quizz-item_img" alt=""> <br>
+                    <input type="radio" name="choose_mat" id="choose_mat6">
+                    <label for="choose_mat6"> Другое </label>
+                </div>
+            </div>
+            <div class="quizz-quest_square">
+                <h3 class="quizz-subtitle">3.Укажите вашу площадь</h3>
+                <div class="quizz-item">
+                    <input type="text" name="choose_sq" id="choose_sq" required placeholder="Укажите площадь в м2">
+                </div>
+            </div>
+            <div class="quizz-quest_budget">
+                <h3 class="quizz-subtitle">4. Ваш бюджет?</h3>
+                <input type="text" class="quizz-item" name="choose_budget" id="choose_budget" required placeholder="Укажите ваш планируемый бюджет">
+            </div>
+            <div class="quizz-info">
+                <h3 class="quizz-subtitle">5. Напишите ваши данные, чтобы мы могли с вами связаться и сказать стоимость</h3>
+                <input type="text" class="quizz-item" name="info_name" id="info_name" required placeholder="Как вас зовут?">
+                <input type="text" class="quizz-item" name="info_phone" id="info_phone" required placeholder="Укажите ваш телефон/почту">
+            </div> 
+            <div class="quizz-submit_btn">
+                <button type="submit" class="quizz_btn"> Отправить </button>
+            </div> 
+        </form>
+        <div class="advantages">
+        <h2 class="subtitle">Почему нас выбирают?</h2>
+        <div class="adv-title">1. История</div>
+        <div class="adv-block-item">
+            <img src="./img/adv-img_history.jpg" alt="">
+            <p>Уже более 23 лет наша компания производит уютную мебель для гостиных, столовых, кабинетов и прихожих. Мы были основаны в 1993 году, а наш интернет-магазин стал одним из первых магазинов, осуществляющих on-line продажу мебели в регионе.</p>
+        </div>
+        <div class="adv-title">2. Цена</div>
+        <div class="adv-block-item">
+            <p>Наша миссия – сделать доступным для каждого ремонт и обустройство своего дома.
+                    Для этого мы взяли на себя обязательство ежедневно предлагать вам лучший ассортимент товаров для ремонта и обустройства дома по низким ценам!Мы постоянно ищем уникальные товарные предложения, закупаем товары на особых условиях. Всё это для того, чтобы предложить вам лучшие товары по уникальным ценам.</p>
+            <img src="./img/adv-price.jpg" alt="">
+        </div>
+        <div class="adv-title">3. Гарантия</div>
+        <div class="adv-block-item">
+            <img src="./img/garaties.jpg" alt="">
+            <p>Домашние будни требуют от кухни многого. Мы тщательно тестируем наши кухни и гарантируем, что они смогут выдержать испытания ежедневной эксплуатации, поэтому мы бесплатно предоставляем 5 лет гарантии на наши кухни</p>
+        </div>
+        <div class="adv-title">4. Бесплатный 3D-дизайн</div>
+        <div class="adv-block-item">
+           <p>Дизайн-проект интерьера включает в себя общение с дизайнером, подробный 3D-дизайн-проект, рекомендации по подбору отделочных материалов, проектную и техническую документацию, а также детальный план всех мебельных систем с артикульными списками.Мы работаем с опытными 3D-дизайнерами разного профиля, которые не только профессионально моделируют объекты по описанию, но и могут подсказать грамотные решения по оптимизации дизайна.</p>
+           <img src="./img/adv-3d.jpg" alt="">
+        </div>
+        <div class="adv-title">5. Качество</div>
+        <div class="adv-block-item">
+            <img src="./img/adv-quality.jpg" alt="">
+            <p>Качество наших услуг подтверждается многолетней работой с большинством клиентов, которые сами хотят продолжать отношения с нами, чтобы быть уверенными в качестве работы. Ведь главная цель работы нашей работы – сделать клиенту кухню, о которой он мечтал.</p>
+        </div>
+    </div>
+    </div>
+</div>
+    <form class="overlay fade">
+        <div class="close_btn"></div>
+        <div class="popup">
+            <div class="popup__title"><h2 class="subtitle">Заказать бесплатный замер</h2></div>
+            <div class="popup-input">
+                <label for="fullname">Напишите ваше имя</label>
+                <input type="text" name="fullname" id="fullname" required placeholder="Как вас зовут?">
+            </div>
+            <div class="popup-input">
+                <label for="phone">Укажите ваш номер в формате 8-987-654-32-11</label>
+                <input type="tel" name="phone" id="phone" required placeholder="Укажите ваш номер" pattern="[0-9]{1}-[0-9]{3}-[0-9]{3}-[0-9]{2}-[0-9]{2}">
+            </div>
+            <div class="popup-input_agree">
+                <input type="checkbox" required id="agree">
+                <label for="agree">Нажимая кнопку «Заказать замер», я даю свое согласие на обработку моих персональных данных</label>
+            </div>
+            <button type="submit" class="submit_btn" id='submit_btn'>Заказать замер</button>
+        </div>
+    </form>
+    <footer>
+        <div class="footer-socials">
+            <h2 class="subtitle">Мы в соцсетях:</h2>
+            <a href="facebook.com"><i class="fab fa-facebook"></i></a>
+            <a href="https://www.instagram.com/kuhni_planeta/"><i class="fab fa-instagram"></i></a>
+            <a href="https://vk.com/kuhniplaneta">  <i class="fab fa-vk"></i> </a>
+        </div>
+    </footer>
+<script src="./js/script.js"></script>
+</body>
+</html>
